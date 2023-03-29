@@ -1,0 +1,70 @@
+<html>
+<head>
+ <title>Dados de Login</title>
+ <meta name="description" content="Formulário em HTML">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+
+ </head>
+
+ <body>
+  <h1> Exemplo 3</h1> 
+  <h2> Fieldset de Dados de Login</h2><br>
+
+<form action="" method="post">
+
+<!-- DADOS DE LOGIN -->
+<fieldset>
+ <legend>Dados de login</legend>
+ <table cellspacing="10">
+  <tbody><tr>
+   <td>
+    <label for="email">E-mail: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="imagem">Imagem de perfil:</label>
+   </td>
+   <td>
+    <input type="file" name="imagem">
+
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="login">Login de usuário: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="login" required="">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="pass">Senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="pass" required="">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="passconfirm">Confirme a senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="passconfirm" required="">
+   </td>
+  </tr>
+ </tbody></table>
+</fieldset>
+<br>
+<input type="submit" name="botaoEnviar" value="Enviar Dados">
+<input type="reset" name="botaoLimpa" value="Limpar">
+</form>
+
+
+</body>
+
+</html>

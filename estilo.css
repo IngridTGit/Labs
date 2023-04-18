@@ -46,5 +46,56 @@ body {
 	color: #333333;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.busca,
+.menu-departamentos {
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	width: 230px;
+	
+	float: left;	
+}
+
+.menu-departamentos {
+	clear:both;
+	/* Não permite que a classe busca flutue a esquerda */ 
+	
+	margin-top: 10px;
+	padding-bottom: 10px;	
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+.menu-departamentos a {
+	color: #333333;
+	text-decoration: none;
+}
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+.destaque{
+	margin-top: 10px;
+	
+}
+
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
 
 	

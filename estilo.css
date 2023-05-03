@@ -122,10 +122,12 @@ body {
 	text-decoration: none;
 }
 .novidades {
-	background-color: #f5dcdc;
+	background-color: #fae7e7;
+	background: linear-gradient(#f7d9d9, #bebef4);
 }
 .mais-vendidos {
-	background-color: #dcdcf5;
+	background-color: #e7e7f8;
+	background: linear-gradient(#dcdcf5, #f4bebe);
 }
 footer{
 	background-image: url(../img/fundo-rodape.png);
@@ -183,5 +185,6 @@ footer .container {
 	background-color: #dcdcdc;
 }
 .menu-departamentos li li a:before {
-	content: '- ';
+	content: '\272A';
+	padding-right: 3px;
 }

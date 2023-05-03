@@ -1,3 +1,19 @@
+/*body{
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px
+}Substituido pelo contanier*/
+body{
+	margin: 0;	
+}
+
+.titulo{ /*Substituindo o H1*/
+	background-image: url(../img/sobre-background.jpg);	
+	padding: 10px;
+	font-size: 25px;
+}
 h2{
 	border-bottom: 2px groove #333333;
 	margin-top: 30px;
@@ -18,19 +34,7 @@ p{
 	text-indent: 15px;
 }
 
-p:first-letter{
-	font-style: bold;
-}
-
-p:first-line{
-	font-variant: small-caps;
-}
-
-h1 + p{
-	text-indent: 0;
-}
-
-#centro-distribuicao{
+#centro-distribuicao {
 	margin-left: auto;
 	margin-right: auto;	
 	width: 550px;
@@ -49,7 +53,15 @@ h1 + p{
 	float: right;
 	margin: 0 0 10px 10px;	
 }
-.titulo_sobre{
-	background-image: url(../img/sobre-background.jpg);	
-	padding: 10px;
+
+p:first-letter{
+	font-weight: bold;
+}
+
+h1 + p{
+	text-indent: 0;
+}
+
+p:first-line{
+	font-variant: small-caps;
 }

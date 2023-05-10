@@ -188,3 +188,21 @@ footer .container {
 	padding-right: 3px;
 padding-right: 3px;
 }
+.painel list-style:hover{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 5px #333;
+	transition: 0.7s ease-in;
+	transform: scale(1.2) rotate(-5deg);
+}
+.painel li:nth-child(2n):hover{
+	transform: scale(1.2) rotate(-5deg);
+
+}
+.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+	transition: 0.7s ease-in-out;
+}

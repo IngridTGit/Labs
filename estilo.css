@@ -1,4 +1,4 @@
-.sacola{
+﻿.sacola{
 	background: url(../img/sacola.png) no-repeat top right;
 	
 	font-size: 14px;
@@ -31,7 +31,7 @@
 	color: #003366;	
 }
 
-.container {
+.container{
 	margin: 0 auto;
 	width: 940px;
 }
@@ -78,8 +78,7 @@ body {
 	color: #333333;
 	text-decoration: none;
 }
-
-.busca input{
+.busca input {
 	vertical-align: middle;
 }
 
@@ -95,12 +94,18 @@ body {
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
 }
 .novidades {
 	float: left;
+	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc, #bebef4);
 }
 .mais-vendidos {
 	float: right;
+	background-color: #dcdcf5;
+	background: linear-gradient(#dcdcf5, #f4bebe);
 }
 .painel li {
 	display: inline-block;
@@ -114,6 +119,7 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
 }
 .painel a {
 	color: #333;
@@ -121,14 +127,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
-.novidades {
-	background-color: #fae7e7;
-	background: linear-gradient(#f7d9d9, #bebef4);
-}
-.mais-vendidos {
-	background-color: #e7e7f8;
-	background: linear-gradient(#dcdcf5, #f4bebe);
-}
+
 footer{
 	background-image: url(../img/fundo-rodape.png);
 	clear: both;
@@ -187,4 +186,5 @@ footer .container {
 .menu-departamentos li li a:before {
 	content: '\272A';
 	padding-right: 3px;
+padding-right: 3px;
 }
